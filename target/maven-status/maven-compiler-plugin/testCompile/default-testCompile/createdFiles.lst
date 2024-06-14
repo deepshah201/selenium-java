@@ -1,0 +1,7 @@
+com\saucedemo\logger\Log.class
+com\saucedemo\test\LoginTest.class
+com\saucedemo\infrastructure\Helper.class
+com\saucedemo\logger\Listner.class
+com\saucedemo\objects\LoginPage.class
+com\saucedemo\infrastructure\BaseTest.class
+com\saucedemo\propertiesconfig\PropertiesFile.class
