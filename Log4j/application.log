@@ -1,225 +1,225 @@
-INFO  2024-06-15 01:35:43 - ====================================================
-INFO  2024-06-15 01:35:43 - Start :-Automation test
-INFO  2024-06-15 01:35:43 - ====================================================
-INFO  2024-06-15 01:35:43 - 
-INFO  2024-06-15 01:35:43 - ---------------------------------------------------
-INFO  2024-06-15 01:35:43 - ====================================================
-INFO  2024-06-15 01:35:43 - TC_07 Started 
-INFO  2024-06-15 01:35:43 - ====================================================
-INFO  2024-06-15 01:35:43 - [+] Inside login
-INFO  2024-06-15 01:35:43 - [+] Inside setUserName
-INFO  2024-06-15 01:35:43 - [+] Successfully enter userName 
-INFO  2024-06-15 01:35:43 - [+] Inside setPassword
-INFO  2024-06-15 01:35:43 - [+] Successfully enter password 
-INFO  2024-06-15 01:35:43 - [+] Inside clickLoginButton
-INFO  2024-06-15 01:35:44 - [+] Successfully click on login button 
-INFO  2024-06-15 01:35:44 - [+] Successfully login 
-INFO  2024-06-15 01:35:44 - [+] Inside to cart
-INFO  2024-06-15 01:35:44 - [+] Successfully added to cart
-INFO  2024-06-15 01:35:44 - [+] Inside Checking number of cart items
-INFO  2024-06-15 01:35:44 - [+] Inside remove from cart
-INFO  2024-06-15 01:35:44 - [+] Successfully removed from cart
-INFO  2024-06-15 01:35:44 - [+] Inside Checking number of cart items
-INFO  2024-06-15 01:35:44 - [+] Inside logout
-INFO  2024-06-15 01:35:44 - [+] Inside burger menu
-INFO  2024-06-15 01:35:44 - [+] Successfully click burger menu
-INFO  2024-06-15 01:35:44 - [+] Inside logout
-INFO  2024-06-15 01:35:44 - [+] Successfully click logout
-INFO  2024-06-15 01:35:44 - [+] Successfully logout
-INFO  2024-06-15 01:35:44 - TC_07 passed
-INFO  2024-06-15 01:35:44 - ====================================================
-INFO  2024-06-15 01:35:44 - TC_07 Ended 
-INFO  2024-06-15 01:35:44 - ====================================================
-INFO  2024-06-15 01:35:44 - ---------------------------------------------------
-INFO  2024-06-15 01:35:44 - 
-INFO  2024-06-15 01:35:44 - 
-INFO  2024-06-15 01:35:44 - ---------------------------------------------------
-INFO  2024-06-15 01:35:44 - ====================================================
-INFO  2024-06-15 01:35:44 - TC_08 Started 
-INFO  2024-06-15 01:35:44 - ====================================================
-INFO  2024-06-15 01:35:44 - [+] Inside login
-INFO  2024-06-15 01:35:44 - [+] Inside setUserName
-INFO  2024-06-15 01:35:44 - [+] Successfully enter userName 
-INFO  2024-06-15 01:35:44 - [+] Inside setPassword
-INFO  2024-06-15 01:35:45 - [+] Successfully enter password 
-INFO  2024-06-15 01:35:45 - [+] Inside clickLoginButton
-INFO  2024-06-15 01:35:45 - [+] Successfully click on login button 
-INFO  2024-06-15 01:35:45 - [+] Successfully login 
-INFO  2024-06-15 01:35:45 - [+] Inside to cart
-INFO  2024-06-15 01:35:45 - [+] Successfully added to cart
-INFO  2024-06-15 01:35:45 - [+] Inside Checking number of cart items
-INFO  2024-06-15 01:35:45 - [+] Inside click shopping cart link
-INFO  2024-06-15 01:35:45 - [+] Successfully click shopping cart link
-INFO  2024-06-15 01:35:45 - [+] Inside checkoutItem
-INFO  2024-06-15 01:35:45 - [+] Inside checkout 
-INFO  2024-06-15 01:35:45 - [+] Successfully click on checkout 
-INFO  2024-06-15 01:35:45 - [+] Inside setFirstName
-INFO  2024-06-15 01:35:45 - [+] Successfully enter first name 
-INFO  2024-06-15 01:35:45 - [+] Inside setLastName
-INFO  2024-06-15 01:35:45 - [+] Successfully enter last name 
-INFO  2024-06-15 01:35:45 - [+] Inside setPostalCode
-INFO  2024-06-15 01:35:45 - [+] Successfully enter postal code 
-INFO  2024-06-15 01:35:45 - [+] Inside clickContinue
-INFO  2024-06-15 01:35:45 - [+] Successfully click on continue 
-INFO  2024-06-15 01:35:45 - [+] Inside Finish
-INFO  2024-06-15 01:35:46 - [+] Successfully click on finish 
-INFO  2024-06-15 01:35:46 - [+] Successfully checkout Item
-INFO  2024-06-15 01:35:46 - [+] Inside getCompleteMsg
-INFO  2024-06-15 01:35:46 - [+] Inside logout
-INFO  2024-06-15 01:35:46 - [+] Inside burger menu
-INFO  2024-06-15 01:35:46 - [+] Successfully click burger menu
-INFO  2024-06-15 01:35:46 - [+] Inside logout
-INFO  2024-06-15 01:35:46 - [+] Successfully click logout
-INFO  2024-06-15 01:35:46 - [+] Successfully logout
-INFO  2024-06-15 01:35:46 - TC_08 passed
-INFO  2024-06-15 01:35:46 - ====================================================
-INFO  2024-06-15 01:35:46 - TC_08 Ended 
-INFO  2024-06-15 01:35:46 - ====================================================
-INFO  2024-06-15 01:35:46 - ---------------------------------------------------
-INFO  2024-06-15 01:35:46 - 
-INFO  2024-06-15 01:35:46 - 
-INFO  2024-06-15 01:35:46 - ---------------------------------------------------
-INFO  2024-06-15 01:35:46 - ====================================================
-INFO  2024-06-15 01:35:46 - TC_12 Started 
-INFO  2024-06-15 01:35:46 - ====================================================
-INFO  2024-06-15 01:35:46 - [+] Inside login
-INFO  2024-06-15 01:35:46 - [+] Inside setUserName
-INFO  2024-06-15 01:35:47 - [+] Successfully enter userName 
-INFO  2024-06-15 01:35:47 - [+] Inside setPassword
-INFO  2024-06-15 01:35:47 - [+] Successfully enter password 
-INFO  2024-06-15 01:35:47 - [+] Inside clickLoginButton
-INFO  2024-06-15 01:35:47 - [+] Successfully click on login button 
-INFO  2024-06-15 01:35:47 - [+] Successfully login 
-INFO  2024-06-15 01:35:47 - [+] Inside to cart
-INFO  2024-06-15 01:35:47 - [+] Successfully added to cart
-INFO  2024-06-15 01:35:47 - [+] Inside Checking number of cart items
-INFO  2024-06-15 01:35:47 - [+] Inside click shopping cart link
-INFO  2024-06-15 01:35:47 - [+] Successfully click shopping cart link
-INFO  2024-06-15 01:35:47 - [+] Inside checkout 
-INFO  2024-06-15 01:35:47 - [+] Successfully click on checkout 
-INFO  2024-06-15 01:35:47 - [+] Inside setFirstName
-INFO  2024-06-15 01:35:47 - [+] Successfully enter first name 
-INFO  2024-06-15 01:35:47 - [+] Inside setLastName
-INFO  2024-06-15 01:35:47 - [+] Successfully enter last name 
-INFO  2024-06-15 01:35:47 - [+] Inside setPostalCode
-INFO  2024-06-15 01:35:48 - [+] Successfully enter postal code 
-INFO  2024-06-15 01:35:48 - [+] Inside clickReset
-INFO  2024-06-15 01:35:48 - [+] Inside burger menu
-INFO  2024-06-15 01:35:48 - [+] Successfully click burger menu
-INFO  2024-06-15 01:35:48 - [+] Successfully click reset
-INFO  2024-06-15 01:35:48 - [+] Inside Checking number of cart items
-INFO  2024-06-15 01:35:48 - [+] Inside clickCrossButton
-INFO  2024-06-15 01:35:48 - [+] Successfully click cross button
-INFO  2024-06-15 01:35:48 - [+] Inside logout
-INFO  2024-06-15 01:35:48 - [+] Inside burger menu
-INFO  2024-06-15 01:35:49 - [+] Successfully click burger menu
-INFO  2024-06-15 01:35:49 - [+] Inside logout
-INFO  2024-06-15 01:35:49 - [+] Successfully click logout
-INFO  2024-06-15 01:35:49 - [+] Successfully logout
-INFO  2024-06-15 01:35:49 - TC_12 passed
-INFO  2024-06-15 01:35:49 - ====================================================
-INFO  2024-06-15 01:35:49 - TC_12 Ended 
-INFO  2024-06-15 01:35:49 - ====================================================
-INFO  2024-06-15 01:35:49 - ---------------------------------------------------
-INFO  2024-06-15 01:35:49 - 
-INFO  2024-06-15 01:35:49 - 
-INFO  2024-06-15 01:35:49 - ---------------------------------------------------
-INFO  2024-06-15 01:35:49 - ====================================================
-INFO  2024-06-15 01:35:49 - TC_14 Started 
-INFO  2024-06-15 01:35:49 - ====================================================
-INFO  2024-06-15 01:35:49 - [+] Inside login
-INFO  2024-06-15 01:35:49 - [+] Inside setUserName
-INFO  2024-06-15 01:35:49 - [+] Successfully enter userName 
-INFO  2024-06-15 01:35:49 - [+] Inside setPassword
-INFO  2024-06-15 01:35:49 - [+] Successfully enter password 
-INFO  2024-06-15 01:35:49 - [+] Inside clickLoginButton
-INFO  2024-06-15 01:35:49 - [+] Successfully click on login button 
-INFO  2024-06-15 01:35:49 - [+] Successfully login 
-INFO  2024-06-15 01:35:49 - [+] Inside to cart
-INFO  2024-06-15 01:35:50 - [+] Successfully added to cart
-INFO  2024-06-15 01:35:50 - [+] Inside Checking number of cart items
-INFO  2024-06-15 01:35:50 - [+] Inside logout
-INFO  2024-06-15 01:35:50 - [+] Inside burger menu
-INFO  2024-06-15 01:35:50 - [+] Successfully click burger menu
-INFO  2024-06-15 01:35:50 - [+] Inside logout
-INFO  2024-06-15 01:35:50 - [+] Successfully click logout
-INFO  2024-06-15 01:35:50 - [+] Successfully logout
-INFO  2024-06-15 01:35:50 - [+] Inside login
-INFO  2024-06-15 01:35:50 - [+] Inside setUserName
-INFO  2024-06-15 01:35:51 - [+] Successfully enter userName 
-INFO  2024-06-15 01:35:51 - [+] Inside setPassword
-INFO  2024-06-15 01:35:51 - [+] Successfully enter password 
-INFO  2024-06-15 01:35:51 - [+] Inside clickLoginButton
-INFO  2024-06-15 01:35:51 - [+] Successfully click on login button 
-INFO  2024-06-15 01:35:51 - [+] Successfully login 
-INFO  2024-06-15 01:35:51 - [+] Inside click shopping cart link
-INFO  2024-06-15 01:35:51 - [+] Successfully click shopping cart link
-INFO  2024-06-15 01:35:51 - [+] Inside checkoutItem
-INFO  2024-06-15 01:35:51 - [+] Inside checkout 
-INFO  2024-06-15 01:35:51 - [+] Successfully click on checkout 
-INFO  2024-06-15 01:35:51 - [+] Inside setFirstName
-INFO  2024-06-15 01:35:51 - [+] Successfully enter first name 
-INFO  2024-06-15 01:35:51 - [+] Inside setLastName
-INFO  2024-06-15 01:35:51 - [+] Successfully enter last name 
-INFO  2024-06-15 01:35:51 - [+] Inside setPostalCode
-INFO  2024-06-15 01:35:51 - [+] Successfully enter postal code 
-INFO  2024-06-15 01:35:51 - [+] Inside clickContinue
-INFO  2024-06-15 01:35:51 - [+] Successfully click on continue 
-INFO  2024-06-15 01:35:51 - [+] Inside Finish
-INFO  2024-06-15 01:35:51 - [+] Successfully click on finish 
-INFO  2024-06-15 01:35:51 - [+] Successfully checkout Item
-INFO  2024-06-15 01:35:51 - [+] Inside getCompleteMsg
-INFO  2024-06-15 01:35:52 - [+] Inside logout
-INFO  2024-06-15 01:35:52 - [+] Inside burger menu
-INFO  2024-06-15 01:35:52 - [+] Successfully click burger menu
-INFO  2024-06-15 01:35:52 - [+] Inside logout
-INFO  2024-06-15 01:35:52 - [+] Successfully click logout
-INFO  2024-06-15 01:35:52 - [+] Successfully logout
-INFO  2024-06-15 01:35:52 - TC_14 passed
-INFO  2024-06-15 01:35:52 - ====================================================
-INFO  2024-06-15 01:35:52 - TC_14 Ended 
-INFO  2024-06-15 01:35:52 - ====================================================
-INFO  2024-06-15 01:35:52 - ---------------------------------------------------
-INFO  2024-06-15 01:35:52 - 
-INFO  2024-06-15 01:35:52 - 
-INFO  2024-06-15 01:35:52 - ---------------------------------------------------
-INFO  2024-06-15 01:35:52 - ====================================================
-INFO  2024-06-15 01:35:52 - TC_15 Started 
-INFO  2024-06-15 01:35:52 - ====================================================
-INFO  2024-06-15 01:35:52 - [+] Inside login
-INFO  2024-06-15 01:35:52 - [+] Inside setUserName
-INFO  2024-06-15 01:35:52 - [+] Successfully enter userName 
-INFO  2024-06-15 01:35:52 - [+] Inside setPassword
-INFO  2024-06-15 01:35:52 - [+] Successfully enter password 
-INFO  2024-06-15 01:35:53 - [+] Inside clickLoginButton
-INFO  2024-06-15 01:35:53 - [+] Successfully click on login button 
-INFO  2024-06-15 01:35:53 - [+] Successfully login 
-INFO  2024-06-15 01:35:53 - [+] Inside to cart
-INFO  2024-06-15 01:35:53 - [+] Successfully added to cart
-INFO  2024-06-15 01:35:53 - [+] Inside Checking number of cart items
-INFO  2024-06-15 01:35:53 - [+] Inside click shopping cart link
-INFO  2024-06-15 01:35:53 - [+] Successfully click shopping cart link
-INFO  2024-06-15 01:35:53 - [+] Inside checkout 
-INFO  2024-06-15 01:35:53 - [+] Successfully click on checkout 
-INFO  2024-06-15 01:35:53 - [+] Inside setFirstName
-INFO  2024-06-15 01:35:53 - [+] Successfully enter first name 
-INFO  2024-06-15 01:35:53 - [+] Inside setLastName
-INFO  2024-06-15 01:35:53 - [+] Successfully enter last name 
-INFO  2024-06-15 01:35:53 - [+] Inside clickContinue
-INFO  2024-06-15 01:35:53 - [+] Successfully click on continue 
-INFO  2024-06-15 01:35:53 - [+] Inside verifyErrorMsg
-INFO  2024-06-15 01:35:53 - [+] Inside logout
-INFO  2024-06-15 01:35:53 - [+] Inside burger menu
-INFO  2024-06-15 01:35:53 - [+] Successfully click burger menu
-INFO  2024-06-15 01:35:53 - [+] Inside logout
-INFO  2024-06-15 01:35:54 - [+] Successfully click logout
-INFO  2024-06-15 01:35:54 - [+] Successfully logout
-INFO  2024-06-15 01:35:54 - TC_15 passed
-INFO  2024-06-15 01:35:54 - ====================================================
-INFO  2024-06-15 01:35:54 - TC_15 Ended 
-INFO  2024-06-15 01:35:54 - ====================================================
-INFO  2024-06-15 01:35:54 - ---------------------------------------------------
-INFO  2024-06-15 01:35:54 - 
-INFO  2024-06-15 01:35:54 - ====================================================
-INFO  2024-06-15 01:35:54 - Finish :-Automation test
-INFO  2024-06-15 01:35:54 - ====================================================
+INFO  2024-06-15 01:43:56 - ====================================================
+INFO  2024-06-15 01:43:56 - Start :-Automation test
+INFO  2024-06-15 01:43:56 - ====================================================
+INFO  2024-06-15 01:43:56 - 
+INFO  2024-06-15 01:43:56 - ---------------------------------------------------
+INFO  2024-06-15 01:43:56 - ====================================================
+INFO  2024-06-15 01:43:56 - TC_07 Started 
+INFO  2024-06-15 01:43:56 - ====================================================
+INFO  2024-06-15 01:43:56 - [+] Inside login
+INFO  2024-06-15 01:43:56 - [+] Inside setUserName
+INFO  2024-06-15 01:43:57 - [+] Successfully enter userName 
+INFO  2024-06-15 01:43:57 - [+] Inside setPassword
+INFO  2024-06-15 01:43:57 - [+] Successfully enter password 
+INFO  2024-06-15 01:43:57 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:43:57 - [+] Successfully click on login button 
+INFO  2024-06-15 01:43:57 - [+] Successfully login 
+INFO  2024-06-15 01:43:57 - [+] Inside to cart
+INFO  2024-06-15 01:43:57 - [+] Successfully added to cart
+INFO  2024-06-15 01:43:57 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:43:57 - [+] Inside remove from cart
+INFO  2024-06-15 01:43:57 - [+] Successfully removed from cart
+INFO  2024-06-15 01:43:57 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:43:57 - [+] Inside logout
+INFO  2024-06-15 01:43:57 - [+] Inside burger menu
+INFO  2024-06-15 01:43:57 - [+] Successfully click burger menu
+INFO  2024-06-15 01:43:57 - [+] Inside logout
+INFO  2024-06-15 01:43:57 - [+] Successfully click logout
+INFO  2024-06-15 01:43:57 - [+] Successfully logout
+INFO  2024-06-15 01:43:57 - TC_07 passed
+INFO  2024-06-15 01:43:57 - ====================================================
+INFO  2024-06-15 01:43:57 - TC_07 Ended 
+INFO  2024-06-15 01:43:57 - ====================================================
+INFO  2024-06-15 01:43:57 - ---------------------------------------------------
+INFO  2024-06-15 01:43:57 - 
+INFO  2024-06-15 01:43:57 - 
+INFO  2024-06-15 01:43:57 - ---------------------------------------------------
+INFO  2024-06-15 01:43:57 - ====================================================
+INFO  2024-06-15 01:43:57 - TC_08 Started 
+INFO  2024-06-15 01:43:57 - ====================================================
+INFO  2024-06-15 01:43:57 - [+] Inside login
+INFO  2024-06-15 01:43:57 - [+] Inside setUserName
+INFO  2024-06-15 01:43:58 - [+] Successfully enter userName 
+INFO  2024-06-15 01:43:58 - [+] Inside setPassword
+INFO  2024-06-15 01:43:58 - [+] Successfully enter password 
+INFO  2024-06-15 01:43:58 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:43:58 - [+] Successfully click on login button 
+INFO  2024-06-15 01:43:58 - [+] Successfully login 
+INFO  2024-06-15 01:43:58 - [+] Inside to cart
+INFO  2024-06-15 01:43:58 - [+] Successfully added to cart
+INFO  2024-06-15 01:43:58 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:43:58 - [+] Inside click shopping cart link
+INFO  2024-06-15 01:43:58 - [+] Successfully click shopping cart link
+INFO  2024-06-15 01:43:58 - [+] Inside checkoutItem
+INFO  2024-06-15 01:43:58 - [+] Inside checkout 
+INFO  2024-06-15 01:43:58 - [+] Successfully click on checkout 
+INFO  2024-06-15 01:43:58 - [+] Inside setFirstName
+INFO  2024-06-15 01:43:58 - [+] Successfully enter first name 
+INFO  2024-06-15 01:43:58 - [+] Inside setLastName
+INFO  2024-06-15 01:43:58 - [+] Successfully enter last name 
+INFO  2024-06-15 01:43:58 - [+] Inside setPostalCode
+INFO  2024-06-15 01:43:59 - [+] Successfully enter postal code 
+INFO  2024-06-15 01:43:59 - [+] Inside clickContinue
+INFO  2024-06-15 01:43:59 - [+] Successfully click on continue 
+INFO  2024-06-15 01:43:59 - [+] Inside Finish
+INFO  2024-06-15 01:43:59 - [+] Successfully click on finish 
+INFO  2024-06-15 01:43:59 - [+] Successfully checkout Item
+INFO  2024-06-15 01:43:59 - [+] Inside getCompleteMsg
+INFO  2024-06-15 01:43:59 - [+] Inside logout
+INFO  2024-06-15 01:43:59 - [+] Inside burger menu
+INFO  2024-06-15 01:43:59 - [+] Successfully click burger menu
+INFO  2024-06-15 01:43:59 - [+] Inside logout
+INFO  2024-06-15 01:44:00 - [+] Successfully click logout
+INFO  2024-06-15 01:44:00 - [+] Successfully logout
+INFO  2024-06-15 01:44:00 - TC_08 passed
+INFO  2024-06-15 01:44:00 - ====================================================
+INFO  2024-06-15 01:44:00 - TC_08 Ended 
+INFO  2024-06-15 01:44:00 - ====================================================
+INFO  2024-06-15 01:44:00 - ---------------------------------------------------
+INFO  2024-06-15 01:44:00 - 
+INFO  2024-06-15 01:44:00 - 
+INFO  2024-06-15 01:44:00 - ---------------------------------------------------
+INFO  2024-06-15 01:44:00 - ====================================================
+INFO  2024-06-15 01:44:00 - TC_12 Started 
+INFO  2024-06-15 01:44:00 - ====================================================
+INFO  2024-06-15 01:44:00 - [+] Inside login
+INFO  2024-06-15 01:44:00 - [+] Inside setUserName
+INFO  2024-06-15 01:44:00 - [+] Successfully enter userName 
+INFO  2024-06-15 01:44:00 - [+] Inside setPassword
+INFO  2024-06-15 01:44:00 - [+] Successfully enter password 
+INFO  2024-06-15 01:44:00 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:44:00 - [+] Successfully click on login button 
+INFO  2024-06-15 01:44:00 - [+] Successfully login 
+INFO  2024-06-15 01:44:00 - [+] Inside to cart
+INFO  2024-06-15 01:44:00 - [+] Successfully added to cart
+INFO  2024-06-15 01:44:00 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:44:00 - [+] Inside click shopping cart link
+INFO  2024-06-15 01:44:00 - [+] Successfully click shopping cart link
+INFO  2024-06-15 01:44:00 - [+] Inside checkout 
+INFO  2024-06-15 01:44:00 - [+] Successfully click on checkout 
+INFO  2024-06-15 01:44:00 - [+] Inside setFirstName
+INFO  2024-06-15 01:44:00 - [+] Successfully enter first name 
+INFO  2024-06-15 01:44:00 - [+] Inside setLastName
+INFO  2024-06-15 01:44:01 - [+] Successfully enter last name 
+INFO  2024-06-15 01:44:01 - [+] Inside setPostalCode
+INFO  2024-06-15 01:44:01 - [+] Successfully enter postal code 
+INFO  2024-06-15 01:44:01 - [+] Inside clickReset
+INFO  2024-06-15 01:44:01 - [+] Inside burger menu
+INFO  2024-06-15 01:44:01 - [+] Successfully click burger menu
+INFO  2024-06-15 01:44:01 - [+] Successfully click reset
+INFO  2024-06-15 01:44:01 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:44:01 - [+] Inside clickCrossButton
+INFO  2024-06-15 01:44:02 - [+] Successfully click cross button
+INFO  2024-06-15 01:44:02 - [+] Inside logout
+INFO  2024-06-15 01:44:02 - [+] Inside burger menu
+INFO  2024-06-15 01:44:02 - [+] Successfully click burger menu
+INFO  2024-06-15 01:44:02 - [+] Inside logout
+INFO  2024-06-15 01:44:02 - [+] Successfully click logout
+INFO  2024-06-15 01:44:02 - [+] Successfully logout
+INFO  2024-06-15 01:44:02 - TC_12 passed
+INFO  2024-06-15 01:44:02 - ====================================================
+INFO  2024-06-15 01:44:02 - TC_12 Ended 
+INFO  2024-06-15 01:44:02 - ====================================================
+INFO  2024-06-15 01:44:02 - ---------------------------------------------------
+INFO  2024-06-15 01:44:02 - 
+INFO  2024-06-15 01:44:02 - 
+INFO  2024-06-15 01:44:02 - ---------------------------------------------------
+INFO  2024-06-15 01:44:02 - ====================================================
+INFO  2024-06-15 01:44:02 - TC_14 Started 
+INFO  2024-06-15 01:44:02 - ====================================================
+INFO  2024-06-15 01:44:02 - [+] Inside login
+INFO  2024-06-15 01:44:02 - [+] Inside setUserName
+INFO  2024-06-15 01:44:02 - [+] Successfully enter userName 
+INFO  2024-06-15 01:44:02 - [+] Inside setPassword
+INFO  2024-06-15 01:44:02 - [+] Successfully enter password 
+INFO  2024-06-15 01:44:02 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:44:03 - [+] Successfully click on login button 
+INFO  2024-06-15 01:44:03 - [+] Successfully login 
+INFO  2024-06-15 01:44:03 - [+] Inside to cart
+INFO  2024-06-15 01:44:03 - [+] Successfully added to cart
+INFO  2024-06-15 01:44:03 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:44:03 - [+] Inside logout
+INFO  2024-06-15 01:44:03 - [+] Inside burger menu
+INFO  2024-06-15 01:44:03 - [+] Successfully click burger menu
+INFO  2024-06-15 01:44:03 - [+] Inside logout
+INFO  2024-06-15 01:44:03 - [+] Successfully click logout
+INFO  2024-06-15 01:44:03 - [+] Successfully logout
+INFO  2024-06-15 01:44:03 - [+] Inside login
+INFO  2024-06-15 01:44:03 - [+] Inside setUserName
+INFO  2024-06-15 01:44:04 - [+] Successfully enter userName 
+INFO  2024-06-15 01:44:04 - [+] Inside setPassword
+INFO  2024-06-15 01:44:04 - [+] Successfully enter password 
+INFO  2024-06-15 01:44:04 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:44:04 - [+] Successfully click on login button 
+INFO  2024-06-15 01:44:04 - [+] Successfully login 
+INFO  2024-06-15 01:44:04 - [+] Inside click shopping cart link
+INFO  2024-06-15 01:44:04 - [+] Successfully click shopping cart link
+INFO  2024-06-15 01:44:04 - [+] Inside checkoutItem
+INFO  2024-06-15 01:44:04 - [+] Inside checkout 
+INFO  2024-06-15 01:44:04 - [+] Successfully click on checkout 
+INFO  2024-06-15 01:44:04 - [+] Inside setFirstName
+INFO  2024-06-15 01:44:04 - [+] Successfully enter first name 
+INFO  2024-06-15 01:44:04 - [+] Inside setLastName
+INFO  2024-06-15 01:44:04 - [+] Successfully enter last name 
+INFO  2024-06-15 01:44:04 - [+] Inside setPostalCode
+INFO  2024-06-15 01:44:04 - [+] Successfully enter postal code 
+INFO  2024-06-15 01:44:04 - [+] Inside clickContinue
+INFO  2024-06-15 01:44:04 - [+] Successfully click on continue 
+INFO  2024-06-15 01:44:04 - [+] Inside Finish
+INFO  2024-06-15 01:44:05 - [+] Successfully click on finish 
+INFO  2024-06-15 01:44:05 - [+] Successfully checkout Item
+INFO  2024-06-15 01:44:05 - [+] Inside getCompleteMsg
+INFO  2024-06-15 01:44:05 - [+] Inside logout
+INFO  2024-06-15 01:44:05 - [+] Inside burger menu
+INFO  2024-06-15 01:44:05 - [+] Successfully click burger menu
+INFO  2024-06-15 01:44:05 - [+] Inside logout
+INFO  2024-06-15 01:44:05 - [+] Successfully click logout
+INFO  2024-06-15 01:44:05 - [+] Successfully logout
+INFO  2024-06-15 01:44:05 - TC_14 passed
+INFO  2024-06-15 01:44:05 - ====================================================
+INFO  2024-06-15 01:44:05 - TC_14 Ended 
+INFO  2024-06-15 01:44:05 - ====================================================
+INFO  2024-06-15 01:44:05 - ---------------------------------------------------
+INFO  2024-06-15 01:44:05 - 
+INFO  2024-06-15 01:44:05 - 
+INFO  2024-06-15 01:44:05 - ---------------------------------------------------
+INFO  2024-06-15 01:44:05 - ====================================================
+INFO  2024-06-15 01:44:05 - TC_15 Started 
+INFO  2024-06-15 01:44:05 - ====================================================
+INFO  2024-06-15 01:44:05 - [+] Inside login
+INFO  2024-06-15 01:44:05 - [+] Inside setUserName
+INFO  2024-06-15 01:44:05 - [+] Successfully enter userName 
+INFO  2024-06-15 01:44:05 - [+] Inside setPassword
+INFO  2024-06-15 01:44:06 - [+] Successfully enter password 
+INFO  2024-06-15 01:44:06 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:44:06 - [+] Successfully click on login button 
+INFO  2024-06-15 01:44:06 - [+] Successfully login 
+INFO  2024-06-15 01:44:06 - [+] Inside to cart
+INFO  2024-06-15 01:44:06 - [+] Successfully added to cart
+INFO  2024-06-15 01:44:06 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:44:06 - [+] Inside click shopping cart link
+INFO  2024-06-15 01:44:06 - [+] Successfully click shopping cart link
+INFO  2024-06-15 01:44:06 - [+] Inside checkout 
+INFO  2024-06-15 01:44:06 - [+] Successfully click on checkout 
+INFO  2024-06-15 01:44:06 - [+] Inside setFirstName
+INFO  2024-06-15 01:44:06 - [+] Successfully enter first name 
+INFO  2024-06-15 01:44:06 - [+] Inside setLastName
+INFO  2024-06-15 01:44:06 - [+] Successfully enter last name 
+INFO  2024-06-15 01:44:06 - [+] Inside clickContinue
+INFO  2024-06-15 01:44:06 - [+] Successfully click on continue 
+INFO  2024-06-15 01:44:06 - [+] Inside verifyErrorMsg
+INFO  2024-06-15 01:44:06 - [+] Inside logout
+INFO  2024-06-15 01:44:06 - [+] Inside burger menu
+INFO  2024-06-15 01:44:06 - [+] Successfully click burger menu
+INFO  2024-06-15 01:44:06 - [+] Inside logout
+INFO  2024-06-15 01:44:07 - [+] Successfully click logout
+INFO  2024-06-15 01:44:07 - [+] Successfully logout
+INFO  2024-06-15 01:44:07 - TC_15 passed
+INFO  2024-06-15 01:44:07 - ====================================================
+INFO  2024-06-15 01:44:07 - TC_15 Ended 
+INFO  2024-06-15 01:44:07 - ====================================================
+INFO  2024-06-15 01:44:07 - ---------------------------------------------------
+INFO  2024-06-15 01:44:07 - 
+INFO  2024-06-15 01:44:07 - ====================================================
+INFO  2024-06-15 01:44:07 - Finish :-Automation test
+INFO  2024-06-15 01:44:07 - ====================================================
