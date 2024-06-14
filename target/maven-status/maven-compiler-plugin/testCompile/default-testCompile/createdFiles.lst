@@ -1,7 +1,10 @@
+com\saucedemo\objects\ProductsPage.class
 com\saucedemo\logger\Log.class
-com\saucedemo\test\LoginTest.class
 com\saucedemo\infrastructure\Helper.class
 com\saucedemo\logger\Listner.class
 com\saucedemo\objects\LoginPage.class
+com\saucedemo\objects\YourcartPage.class
+com\saucedemo\test\Tests.class
 com\saucedemo\infrastructure\BaseTest.class
+com\saucedemo\objects\LogoutPage.class
 com\saucedemo\propertiesconfig\PropertiesFile.class

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-14T17:37:07 IST" name="Default suite" finished-at="2024-06-14T17:37:07 IST" duration-ms="294">
+  <suite started-at="2024-06-15T01:12:20 IST" name="Default suite" finished-at="2024-06-15T01:12:30 IST" duration-ms="10494">
     <groups>
     </groups>
-    <test started-at="2024-06-14T17:37:07 IST" name="Default test" finished-at="2024-06-14T17:37:07 IST" duration-ms="294">
-      <class name="com.saucedemo.test.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.test.LoginTest@2415fc55]" started-at="2024-06-14T17:37:01 IST" name="setUp" finished-at="2024-06-14T17:37:07 IST" duration-ms="5204" status="PASS">
+    <test started-at="2024-06-15T01:12:20 IST" name="Default test" finished-at="2024-06-15T01:12:30 IST" duration-ms="10494">
+      <class name="com.saucedemo.test.Tests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:16 IST" name="setUp" finished-at="2024-06-15T01:12:20 IST" duration-ms="3488" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,37 +18,141 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.test.LoginTest@2415fc55]" started-at="2024-06-14T17:37:07 IST" name="startTest" finished-at="2024-06-14T17:37:07 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:20 IST" name="startTest" finished-at="2024-06-15T01:12:20 IST" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.saucedemo.test.LoginTest.Login()]]>
+                <![CDATA[public void com.saucedemo.test.Tests.TC_07()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="Login()[pri:0, instance:com.saucedemo.test.LoginTest@2415fc55]" started-at="2024-06-14T17:37:07 IST" name="Login" finished-at="2024-06-14T17:37:07 IST" duration-ms="252" status="PASS">
+        <test-method signature="TC_07()[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:20 IST" name="TC_07" description="Verify that the user can add &amp; remove a product from the cart" finished-at="2024-06-15T01:12:21 IST" duration-ms="986" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.saucedemo.test.LoginTest@2415fc55]" started-at="2024-06-14T17:37:07 IST" name="endTest" finished-at="2024-06-14T17:37:07 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- TC_07 -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:21 IST" name="endTest" finished-at="2024-06-15T01:12:21 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginTest.Login()[pri:0, instance:com.saucedemo.test.LoginTest@2415fc55] output={null}]]]>
+                <![CDATA[[TestResult name=TC_07 status=SUCCESS method=Tests.TC_07()[pri:0, instance:com.saucedemo.test.Tests@34b9f960] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.test.LoginTest@2415fc55]" started-at="2024-06-14T17:37:07 IST" name="tearDown" finished-at="2024-06-14T17:37:07 IST" duration-ms="531" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:21 IST" name="startTest" finished-at="2024-06-15T01:12:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.test.Tests.TC_08()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_08()[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:21 IST" name="TC_08" description="Verify that the user can successfully complete the checkout process" finished-at="2024-06-15T01:12:23 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08 -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:23 IST" name="endTest" finished-at="2024-06-15T01:12:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_08 status=SUCCESS method=Tests.TC_08()[pri:0, instance:com.saucedemo.test.Tests@34b9f960] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:23 IST" name="startTest" finished-at="2024-06-15T01:12:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.test.Tests.TC_12()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_12()[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:23 IST" name="TC_12" description="Reset Cart State from CheckoutStep" finished-at="2024-06-15T01:12:25 IST" duration-ms="2444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12 -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:25 IST" name="endTest" finished-at="2024-06-15T01:12:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_12 status=SUCCESS method=Tests.TC_12()[pri:0, instance:com.saucedemo.test.Tests@34b9f960] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:25 IST" name="startTest" finished-at="2024-06-15T01:12:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.test.Tests.TC_14()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_14()[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:25 IST" name="TC_14" description="should be able to add one item to cart, go to Cart page, logout, log back in and check it out successfully" finished-at="2024-06-15T01:12:29 IST" duration-ms="3164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_14 -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:29 IST" name="endTest" finished-at="2024-06-15T01:12:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_14 status=SUCCESS method=Tests.TC_14()[pri:0, instance:com.saucedemo.test.Tests@34b9f960] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:29 IST" name="startTest" finished-at="2024-06-15T01:12:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.test.Tests.TC_15()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="TC_15()[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:29 IST" name="TC_15" description="Should error out when customer information is missing" finished-at="2024-06-15T01:12:30 IST" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_15 -->
+        <test-method is-config="true" signature="endTest(org.testng.ITestResult)[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:30 IST" name="endTest" finished-at="2024-06-15T01:12:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_15 status=SUCCESS method=Tests.TC_15()[pri:0, instance:com.saucedemo.test.Tests@34b9f960] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.test.Tests@34b9f960]" started-at="2024-06-15T01:12:30 IST" name="tearDown" finished-at="2024-06-15T01:12:31 IST" duration-ms="1090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.saucedemo.test.LoginTest -->
+      </class> <!-- com.saucedemo.test.Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

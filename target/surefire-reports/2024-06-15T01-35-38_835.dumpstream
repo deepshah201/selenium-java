@@ -1,4 +1,4 @@
-# Created at 2024-06-14T17:40:03.136
+# Created at 2024-06-15T01:35:39.156
 Boot Manifest-JAR contains absolute paths in classpath 'D:\selenium-java\selenium-java\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
