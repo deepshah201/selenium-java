@@ -18,6 +18,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+import com.saucedemo.objects.LoginPage;
+import com.saucedemo.objects.LogoutPage;
 import com.saucedemo.propertiesconfig.PropertiesFile;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -33,39 +35,30 @@ public class BaseTest {
 	public static ExtentReports extent;
 	public ExtentTest test;
 	public ExtentSparkReporter spark;
+	private LoginPage loginPage;
+	private LogoutPage logoutPage;
 
-	/*
-	 * Creates a new WebDriver instance ,Initializes the ExtentReports object and
-	 * sets up the ExtentSparkReporter. Navigates to the specified URL
-	 */
 	@Parameters({ "browser" })
 	@BeforeSuite
 	public void setUp(@Optional("chrome") String browser) throws IOException {
 		driver = Helper.getDriver(browser);
 		extent = new ExtentReports();
 		spark = new ExtentSparkReporter(PropertiesFile.projectPath + "/automation-report/WebTestAutomation.html");
-		spark.config().setReportName(
-				"Framework Developed by Deep Shah, Please reach out to deepshah2012002@gmail.com for any query !");
+		spark.config().setReportName(PropertiesFile.getProperties("reportName"));
 		extent.attachReporter(spark);
 		driver.get(PropertiesFile.getProperties("url"));
 		deleteAndCreateScreenShotFolder();
 		String css = " .nav-logo {display: none; }";
 		spark.config().setCss(css);
-		spark.config().setDocumentTitle("Selenium-Java");
+		spark.config().setDocumentTitle(PropertiesFile.getProperties("reportTitle"));
+
 	}
 
-	/*
-	 * Create a test in extent report
-	 */
 	@BeforeMethod
 	public void startTest(Method method) {
 		test = extent.createTest(method.getName());
 	}
 
-	/*
-	 * Take the screenshot of the failed test and attempt to report and check the
-	 * status of the test
-	 */
 	@AfterMethod
 	public void endTest(ITestResult result) throws InterruptedException {
 		if (result.getStatus() == ITestResult.FAILURE) {
@@ -75,11 +68,9 @@ public class BaseTest {
 			String screenshotPath = captureScreenshot(driver, result.getName());
 			test.skip(result.getThrowable(), MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
 		} else {
-			// test.pass("Test passed");
 			Markup markup = MarkupHelper.createLabel("Test Passed", ExtentColor.GREEN);
 			test.pass(markup);
 		}
-		// extent.flush();
 	}
 
 	public static String captureScreenshot(WebDriver driver, String screenshotName) {
@@ -111,13 +102,28 @@ public class BaseTest {
 		folder.mkdir();
 	}
 
-	/*
-	 * Flush the report and performing the logout
-	 */
 	@AfterSuite
 	public void tearDown() throws InterruptedException {
 		extent.flush();
 		driver.quit();
+	}
+
+	public void Login(String username, String password) {
+		loginPage = new LoginPage(driver, test);
+		loginPage.login(username, password);
+	}
+
+	public void Logout() {
+		logoutPage = new LogoutPage(driver, test);
+		logoutPage.logout();
+	}
+
+	public void Category(String category) {
+		test.assignCategory(category);
+	}
+
+	public void Autor(String autor) {
+		test.assignAuthor(autor);
 	}
 
 }

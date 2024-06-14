@@ -11,7 +11,7 @@
 		<parameter name="browser" value="${browser}" />
 
 		<classes>
-			<class name="com.saucedemo.test.LoginTest">
+			<class name="com.saucedemo.test.Tests">
 			</class>
 		</classes>
 

@@ -1,167 +1,375 @@
-DEBUG 2024-06-14 17:40:04 - suiteXmlPath: "D:\selenium-java\selenium-java\testng.xml"
-TRACE 2024-06-14 17:40:04 - [Graph] ADDING NODE BaseTest.setUp(java.lang.String)[pri:0, instance:null] -1427792031
-TRACE 2024-06-14 17:40:04 - [Graph] ================ SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] =============== DONE SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] ====== SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ====== END SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 816542746
-TRACE 2024-06-14 17:40:04 - [Graph] ================ SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] =============== DONE SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] ====== SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ====== END SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ADDING NODE BaseTest.startTest(java.lang.reflect.Method)[pri:0, instance:null] 762631658
-TRACE 2024-06-14 17:40:04 - [Graph] ================ SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] =============== DONE SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] ====== SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ====== END SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ADDING NODE BaseTest.endTest(org.testng.ITestResult)[pri:0, instance:null] 206763505
-TRACE 2024-06-14 17:40:04 - [Graph] ================ SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] =============== DONE SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] ====== SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ====== END SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ADDING NODE BaseTest.setUp(java.lang.String)[pri:0, instance:com.saucedemo.test.LoginTest@1fa121e2] -781226335
-TRACE 2024-06-14 17:40:04 - [Graph] ================ SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] =============== DONE SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] ====== SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ====== END SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ADDING NODE LoginTest.Login()[pri:0, instance:com.saucedemo.test.LoginTest@1fa121e2] -1647917540
-TRACE 2024-06-14 17:40:04 - [Graph] ================ SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] =============== DONE SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] ====== SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ====== END SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:com.saucedemo.test.LoginTest@1fa121e2] 73675016
-TRACE 2024-06-14 17:40:04 - [Graph] ================ SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] =============== DONE SORTING
-TRACE 2024-06-14 17:40:04 - [Graph] ====== SORTED NODES
-TRACE 2024-06-14 17:40:04 - [Graph] ====== END SORTED NODES
-INFO  2024-06-14 17:40:10 - ====================================================
-INFO  2024-06-14 17:40:10 - Start :-Automation test
-INFO  2024-06-14 17:40:10 - ====================================================
-INFO  2024-06-14 17:40:10 - 
-INFO  2024-06-14 17:40:10 - ---------------------------------------------------
-INFO  2024-06-14 17:40:10 - ====================================================
-INFO  2024-06-14 17:40:10 - LOGIN Started 
-INFO  2024-06-14 17:40:10 - ====================================================
-INFO  2024-06-14 17:40:10 - [+] Inside login
-INFO  2024-06-14 17:40:10 - [+] Inside setUserName
-INFO  2024-06-14 17:40:10 - [+] Successfully enter userName 
-INFO  2024-06-14 17:40:10 - [+] Inside setPassword
-INFO  2024-06-14 17:40:10 - [+] Successfully enter password 
-INFO  2024-06-14 17:40:10 - [+] Inside clickLoginButton
-INFO  2024-06-14 17:40:10 - [+] Successfully click on login button 
-INFO  2024-06-14 17:40:10 - [+] Successfully login 
-INFO  2024-06-14 17:40:10 - LOGIN passed
-INFO  2024-06-14 17:40:10 - ====================================================
-INFO  2024-06-14 17:40:10 - LOGIN Ended 
-INFO  2024-06-14 17:40:10 - ====================================================
-INFO  2024-06-14 17:40:10 - ---------------------------------------------------
-INFO  2024-06-14 17:40:10 - 
-INFO  2024-06-14 17:40:11 - ====================================================
-INFO  2024-06-14 17:40:11 - Finish :-Automation test
-INFO  2024-06-14 17:40:11 - ====================================================
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
-DEBUG 2024-06-14 17:40:11 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
-DEBUG 2024-06-14 17:40:11 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
-DEBUG 2024-06-14 17:40:11 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
-DEBUG 2024-06-14 17:40:11 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+DEBUG 2024-06-15 01:35:39 - suiteXmlPath: "D:\selenium-java\selenium-java\Runner.xml"
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE BaseTest.setUp(java.lang.String)[pri:0, instance:null] -1427792031
+TRACE 2024-06-15 01:35:40 - [Graph] ================ SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] =============== DONE SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] ====== SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ====== END SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 816542746
+TRACE 2024-06-15 01:35:40 - [Graph] ================ SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] =============== DONE SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] ====== SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ====== END SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE BaseTest.startTest(java.lang.reflect.Method)[pri:0, instance:null] 762631658
+TRACE 2024-06-15 01:35:40 - [Graph] ================ SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] =============== DONE SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] ====== SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ====== END SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE BaseTest.endTest(org.testng.ITestResult)[pri:0, instance:null] 206763505
+TRACE 2024-06-15 01:35:40 - [Graph] ================ SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] =============== DONE SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] ====== SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ====== END SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE BaseTest.setUp(java.lang.String)[pri:0, instance:com.saucedemo.test.Tests@3b0090a4] -321987229
+TRACE 2024-06-15 01:35:40 - [Graph] ================ SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] =============== DONE SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] ====== SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ====== END SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE Tests.TC_08()[pri:0, instance:com.saucedemo.test.Tests@3b0090a4] 1029385977
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE Tests.TC_07()[pri:0, instance:com.saucedemo.test.Tests@3b0090a4] 1029385698
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE Tests.TC_15()[pri:0, instance:com.saucedemo.test.Tests@3b0090a4] 1029384613
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE Tests.TC_14()[pri:0, instance:com.saucedemo.test.Tests@3b0090a4] 1029384830
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE Tests.TC_12()[pri:0, instance:com.saucedemo.test.Tests@3b0090a4] 1029384768
+TRACE 2024-06-15 01:35:40 - [Graph] ================ SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] =============== DONE SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] ====== SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ====== END SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:com.saucedemo.test.Tests@3b0090a4] 532914122
+TRACE 2024-06-15 01:35:40 - [Graph] ================ SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] =============== DONE SORTING
+TRACE 2024-06-15 01:35:40 - [Graph] ====== SORTED NODES
+TRACE 2024-06-15 01:35:40 - [Graph] ====== END SORTED NODES
+INFO  2024-06-15 01:35:43 - ====================================================
+INFO  2024-06-15 01:35:43 - Start :-Automation test
+INFO  2024-06-15 01:35:43 - ====================================================
+INFO  2024-06-15 01:35:43 - 
+INFO  2024-06-15 01:35:43 - ---------------------------------------------------
+INFO  2024-06-15 01:35:43 - ====================================================
+INFO  2024-06-15 01:35:43 - TC_07 Started 
+INFO  2024-06-15 01:35:43 - ====================================================
+INFO  2024-06-15 01:35:43 - [+] Inside login
+INFO  2024-06-15 01:35:43 - [+] Inside setUserName
+INFO  2024-06-15 01:35:43 - [+] Successfully enter userName 
+INFO  2024-06-15 01:35:43 - [+] Inside setPassword
+INFO  2024-06-15 01:35:43 - [+] Successfully enter password 
+INFO  2024-06-15 01:35:43 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:35:44 - [+] Successfully click on login button 
+INFO  2024-06-15 01:35:44 - [+] Successfully login 
+INFO  2024-06-15 01:35:44 - [+] Inside to cart
+INFO  2024-06-15 01:35:44 - [+] Successfully added to cart
+INFO  2024-06-15 01:35:44 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:35:44 - [+] Inside remove from cart
+INFO  2024-06-15 01:35:44 - [+] Successfully removed from cart
+INFO  2024-06-15 01:35:44 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:35:44 - [+] Inside logout
+INFO  2024-06-15 01:35:44 - [+] Inside burger menu
+INFO  2024-06-15 01:35:44 - [+] Successfully click burger menu
+INFO  2024-06-15 01:35:44 - [+] Inside logout
+INFO  2024-06-15 01:35:44 - [+] Successfully click logout
+INFO  2024-06-15 01:35:44 - [+] Successfully logout
+INFO  2024-06-15 01:35:44 - TC_07 passed
+INFO  2024-06-15 01:35:44 - ====================================================
+INFO  2024-06-15 01:35:44 - TC_07 Ended 
+INFO  2024-06-15 01:35:44 - ====================================================
+INFO  2024-06-15 01:35:44 - ---------------------------------------------------
+INFO  2024-06-15 01:35:44 - 
+INFO  2024-06-15 01:35:44 - 
+INFO  2024-06-15 01:35:44 - ---------------------------------------------------
+INFO  2024-06-15 01:35:44 - ====================================================
+INFO  2024-06-15 01:35:44 - TC_08 Started 
+INFO  2024-06-15 01:35:44 - ====================================================
+INFO  2024-06-15 01:35:44 - [+] Inside login
+INFO  2024-06-15 01:35:44 - [+] Inside setUserName
+INFO  2024-06-15 01:35:44 - [+] Successfully enter userName 
+INFO  2024-06-15 01:35:44 - [+] Inside setPassword
+INFO  2024-06-15 01:35:45 - [+] Successfully enter password 
+INFO  2024-06-15 01:35:45 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:35:45 - [+] Successfully click on login button 
+INFO  2024-06-15 01:35:45 - [+] Successfully login 
+INFO  2024-06-15 01:35:45 - [+] Inside to cart
+INFO  2024-06-15 01:35:45 - [+] Successfully added to cart
+INFO  2024-06-15 01:35:45 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:35:45 - [+] Inside click shopping cart link
+INFO  2024-06-15 01:35:45 - [+] Successfully click shopping cart link
+INFO  2024-06-15 01:35:45 - [+] Inside checkoutItem
+INFO  2024-06-15 01:35:45 - [+] Inside checkout 
+INFO  2024-06-15 01:35:45 - [+] Successfully click on checkout 
+INFO  2024-06-15 01:35:45 - [+] Inside setFirstName
+INFO  2024-06-15 01:35:45 - [+] Successfully enter first name 
+INFO  2024-06-15 01:35:45 - [+] Inside setLastName
+INFO  2024-06-15 01:35:45 - [+] Successfully enter last name 
+INFO  2024-06-15 01:35:45 - [+] Inside setPostalCode
+INFO  2024-06-15 01:35:45 - [+] Successfully enter postal code 
+INFO  2024-06-15 01:35:45 - [+] Inside clickContinue
+INFO  2024-06-15 01:35:45 - [+] Successfully click on continue 
+INFO  2024-06-15 01:35:45 - [+] Inside Finish
+INFO  2024-06-15 01:35:46 - [+] Successfully click on finish 
+INFO  2024-06-15 01:35:46 - [+] Successfully checkout Item
+INFO  2024-06-15 01:35:46 - [+] Inside getCompleteMsg
+INFO  2024-06-15 01:35:46 - [+] Inside logout
+INFO  2024-06-15 01:35:46 - [+] Inside burger menu
+INFO  2024-06-15 01:35:46 - [+] Successfully click burger menu
+INFO  2024-06-15 01:35:46 - [+] Inside logout
+INFO  2024-06-15 01:35:46 - [+] Successfully click logout
+INFO  2024-06-15 01:35:46 - [+] Successfully logout
+INFO  2024-06-15 01:35:46 - TC_08 passed
+INFO  2024-06-15 01:35:46 - ====================================================
+INFO  2024-06-15 01:35:46 - TC_08 Ended 
+INFO  2024-06-15 01:35:46 - ====================================================
+INFO  2024-06-15 01:35:46 - ---------------------------------------------------
+INFO  2024-06-15 01:35:46 - 
+INFO  2024-06-15 01:35:46 - 
+INFO  2024-06-15 01:35:46 - ---------------------------------------------------
+INFO  2024-06-15 01:35:46 - ====================================================
+INFO  2024-06-15 01:35:46 - TC_12 Started 
+INFO  2024-06-15 01:35:46 - ====================================================
+INFO  2024-06-15 01:35:46 - [+] Inside login
+INFO  2024-06-15 01:35:46 - [+] Inside setUserName
+INFO  2024-06-15 01:35:47 - [+] Successfully enter userName 
+INFO  2024-06-15 01:35:47 - [+] Inside setPassword
+INFO  2024-06-15 01:35:47 - [+] Successfully enter password 
+INFO  2024-06-15 01:35:47 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:35:47 - [+] Successfully click on login button 
+INFO  2024-06-15 01:35:47 - [+] Successfully login 
+INFO  2024-06-15 01:35:47 - [+] Inside to cart
+INFO  2024-06-15 01:35:47 - [+] Successfully added to cart
+INFO  2024-06-15 01:35:47 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:35:47 - [+] Inside click shopping cart link
+INFO  2024-06-15 01:35:47 - [+] Successfully click shopping cart link
+INFO  2024-06-15 01:35:47 - [+] Inside checkout 
+INFO  2024-06-15 01:35:47 - [+] Successfully click on checkout 
+INFO  2024-06-15 01:35:47 - [+] Inside setFirstName
+INFO  2024-06-15 01:35:47 - [+] Successfully enter first name 
+INFO  2024-06-15 01:35:47 - [+] Inside setLastName
+INFO  2024-06-15 01:35:47 - [+] Successfully enter last name 
+INFO  2024-06-15 01:35:47 - [+] Inside setPostalCode
+INFO  2024-06-15 01:35:48 - [+] Successfully enter postal code 
+INFO  2024-06-15 01:35:48 - [+] Inside clickReset
+INFO  2024-06-15 01:35:48 - [+] Inside burger menu
+INFO  2024-06-15 01:35:48 - [+] Successfully click burger menu
+INFO  2024-06-15 01:35:48 - [+] Successfully click reset
+INFO  2024-06-15 01:35:48 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:35:48 - [+] Inside clickCrossButton
+INFO  2024-06-15 01:35:48 - [+] Successfully click cross button
+INFO  2024-06-15 01:35:48 - [+] Inside logout
+INFO  2024-06-15 01:35:48 - [+] Inside burger menu
+INFO  2024-06-15 01:35:49 - [+] Successfully click burger menu
+INFO  2024-06-15 01:35:49 - [+] Inside logout
+INFO  2024-06-15 01:35:49 - [+] Successfully click logout
+INFO  2024-06-15 01:35:49 - [+] Successfully logout
+INFO  2024-06-15 01:35:49 - TC_12 passed
+INFO  2024-06-15 01:35:49 - ====================================================
+INFO  2024-06-15 01:35:49 - TC_12 Ended 
+INFO  2024-06-15 01:35:49 - ====================================================
+INFO  2024-06-15 01:35:49 - ---------------------------------------------------
+INFO  2024-06-15 01:35:49 - 
+INFO  2024-06-15 01:35:49 - 
+INFO  2024-06-15 01:35:49 - ---------------------------------------------------
+INFO  2024-06-15 01:35:49 - ====================================================
+INFO  2024-06-15 01:35:49 - TC_14 Started 
+INFO  2024-06-15 01:35:49 - ====================================================
+INFO  2024-06-15 01:35:49 - [+] Inside login
+INFO  2024-06-15 01:35:49 - [+] Inside setUserName
+INFO  2024-06-15 01:35:49 - [+] Successfully enter userName 
+INFO  2024-06-15 01:35:49 - [+] Inside setPassword
+INFO  2024-06-15 01:35:49 - [+] Successfully enter password 
+INFO  2024-06-15 01:35:49 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:35:49 - [+] Successfully click on login button 
+INFO  2024-06-15 01:35:49 - [+] Successfully login 
+INFO  2024-06-15 01:35:49 - [+] Inside to cart
+INFO  2024-06-15 01:35:50 - [+] Successfully added to cart
+INFO  2024-06-15 01:35:50 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:35:50 - [+] Inside logout
+INFO  2024-06-15 01:35:50 - [+] Inside burger menu
+INFO  2024-06-15 01:35:50 - [+] Successfully click burger menu
+INFO  2024-06-15 01:35:50 - [+] Inside logout
+INFO  2024-06-15 01:35:50 - [+] Successfully click logout
+INFO  2024-06-15 01:35:50 - [+] Successfully logout
+INFO  2024-06-15 01:35:50 - [+] Inside login
+INFO  2024-06-15 01:35:50 - [+] Inside setUserName
+INFO  2024-06-15 01:35:51 - [+] Successfully enter userName 
+INFO  2024-06-15 01:35:51 - [+] Inside setPassword
+INFO  2024-06-15 01:35:51 - [+] Successfully enter password 
+INFO  2024-06-15 01:35:51 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:35:51 - [+] Successfully click on login button 
+INFO  2024-06-15 01:35:51 - [+] Successfully login 
+INFO  2024-06-15 01:35:51 - [+] Inside click shopping cart link
+INFO  2024-06-15 01:35:51 - [+] Successfully click shopping cart link
+INFO  2024-06-15 01:35:51 - [+] Inside checkoutItem
+INFO  2024-06-15 01:35:51 - [+] Inside checkout 
+INFO  2024-06-15 01:35:51 - [+] Successfully click on checkout 
+INFO  2024-06-15 01:35:51 - [+] Inside setFirstName
+INFO  2024-06-15 01:35:51 - [+] Successfully enter first name 
+INFO  2024-06-15 01:35:51 - [+] Inside setLastName
+INFO  2024-06-15 01:35:51 - [+] Successfully enter last name 
+INFO  2024-06-15 01:35:51 - [+] Inside setPostalCode
+INFO  2024-06-15 01:35:51 - [+] Successfully enter postal code 
+INFO  2024-06-15 01:35:51 - [+] Inside clickContinue
+INFO  2024-06-15 01:35:51 - [+] Successfully click on continue 
+INFO  2024-06-15 01:35:51 - [+] Inside Finish
+INFO  2024-06-15 01:35:51 - [+] Successfully click on finish 
+INFO  2024-06-15 01:35:51 - [+] Successfully checkout Item
+INFO  2024-06-15 01:35:51 - [+] Inside getCompleteMsg
+INFO  2024-06-15 01:35:52 - [+] Inside logout
+INFO  2024-06-15 01:35:52 - [+] Inside burger menu
+INFO  2024-06-15 01:35:52 - [+] Successfully click burger menu
+INFO  2024-06-15 01:35:52 - [+] Inside logout
+INFO  2024-06-15 01:35:52 - [+] Successfully click logout
+INFO  2024-06-15 01:35:52 - [+] Successfully logout
+INFO  2024-06-15 01:35:52 - TC_14 passed
+INFO  2024-06-15 01:35:52 - ====================================================
+INFO  2024-06-15 01:35:52 - TC_14 Ended 
+INFO  2024-06-15 01:35:52 - ====================================================
+INFO  2024-06-15 01:35:52 - ---------------------------------------------------
+INFO  2024-06-15 01:35:52 - 
+INFO  2024-06-15 01:35:52 - 
+INFO  2024-06-15 01:35:52 - ---------------------------------------------------
+INFO  2024-06-15 01:35:52 - ====================================================
+INFO  2024-06-15 01:35:52 - TC_15 Started 
+INFO  2024-06-15 01:35:52 - ====================================================
+INFO  2024-06-15 01:35:52 - [+] Inside login
+INFO  2024-06-15 01:35:52 - [+] Inside setUserName
+INFO  2024-06-15 01:35:52 - [+] Successfully enter userName 
+INFO  2024-06-15 01:35:52 - [+] Inside setPassword
+INFO  2024-06-15 01:35:52 - [+] Successfully enter password 
+INFO  2024-06-15 01:35:53 - [+] Inside clickLoginButton
+INFO  2024-06-15 01:35:53 - [+] Successfully click on login button 
+INFO  2024-06-15 01:35:53 - [+] Successfully login 
+INFO  2024-06-15 01:35:53 - [+] Inside to cart
+INFO  2024-06-15 01:35:53 - [+] Successfully added to cart
+INFO  2024-06-15 01:35:53 - [+] Inside Checking number of cart items
+INFO  2024-06-15 01:35:53 - [+] Inside click shopping cart link
+INFO  2024-06-15 01:35:53 - [+] Successfully click shopping cart link
+INFO  2024-06-15 01:35:53 - [+] Inside checkout 
+INFO  2024-06-15 01:35:53 - [+] Successfully click on checkout 
+INFO  2024-06-15 01:35:53 - [+] Inside setFirstName
+INFO  2024-06-15 01:35:53 - [+] Successfully enter first name 
+INFO  2024-06-15 01:35:53 - [+] Inside setLastName
+INFO  2024-06-15 01:35:53 - [+] Successfully enter last name 
+INFO  2024-06-15 01:35:53 - [+] Inside clickContinue
+INFO  2024-06-15 01:35:53 - [+] Successfully click on continue 
+INFO  2024-06-15 01:35:53 - [+] Inside verifyErrorMsg
+INFO  2024-06-15 01:35:53 - [+] Inside logout
+INFO  2024-06-15 01:35:53 - [+] Inside burger menu
+INFO  2024-06-15 01:35:53 - [+] Successfully click burger menu
+INFO  2024-06-15 01:35:53 - [+] Inside logout
+INFO  2024-06-15 01:35:54 - [+] Successfully click logout
+INFO  2024-06-15 01:35:54 - [+] Successfully logout
+INFO  2024-06-15 01:35:54 - TC_15 passed
+INFO  2024-06-15 01:35:54 - ====================================================
+INFO  2024-06-15 01:35:54 - TC_15 Ended 
+INFO  2024-06-15 01:35:54 - ====================================================
+INFO  2024-06-15 01:35:54 - ---------------------------------------------------
+INFO  2024-06-15 01:35:54 - 
+INFO  2024-06-15 01:35:54 - ====================================================
+INFO  2024-06-15 01:35:54 - Finish :-Automation test
+INFO  2024-06-15 01:35:54 - ====================================================
+DEBUG 2024-06-15 01:35:54 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+DEBUG 2024-06-15 01:35:54 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+DEBUG 2024-06-15 01:35:54 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+DEBUG 2024-06-15 01:35:54 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+DEBUG 2024-06-15 01:35:54 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+DEBUG 2024-06-15 01:35:54 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+DEBUG 2024-06-15 01:35:54 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+DEBUG 2024-06-15 01:35:54 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+DEBUG 2024-06-15 01:35:54 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+DEBUG 2024-06-15 01:35:54 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+DEBUG 2024-06-15 01:35:54 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+DEBUG 2024-06-15 01:35:54 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+DEBUG 2024-06-15 01:35:54 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG 2024-06-15 01:35:54 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:54 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+DEBUG 2024-06-15 01:35:54 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+DEBUG 2024-06-15 01:35:55 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG 2024-06-15 01:35:55 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG 2024-06-15 01:35:55 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG 2024-06-15 01:35:55 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+DEBUG 2024-06-15 01:35:55 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+DEBUG 2024-06-15 01:35:55 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+DEBUG 2024-06-15 01:35:55 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Asus/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"

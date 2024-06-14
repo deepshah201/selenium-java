@@ -23,11 +23,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Helper extends BaseTest {
 
-	/*
-	 * Method that returns a WebDriver instance based on the specified browser. It
-	 * uses the WebDriverManager to set up the driver and maximize the window before
-	 * returning the instance.
-	 */
 	public static WebDriver getDriver(String browser) {
 		WebDriver driver = null;
 		if (browser.equalsIgnoreCase("chrome")) {
@@ -51,26 +46,16 @@ public class Helper extends BaseTest {
 		ele.click();
 	}
 
-	/*
-	 * Uses JavaScript Executor to scroll the web page to the specified element.
-	 */
 	public static void scrollToElement(WebDriver driver, WebElement ele) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", ele);
 	}
 
-	/*
-	 * Uses JavaScript Executor to scroll the web page to the bottom.
-	 */
 	public static void scrollToBottom(WebDriver driver) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	}
 
-	/*
-	 * Uses Selenium's WebDriverWait to wait for an element to be both visible and
-	 * clickable within the specified timeout duration.
-	 */
 	public static void waitForElementToBeVisibleAndClickable(WebDriver driver, WebElement ele,
 			Duration timeoutInSeconds) {
 		WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
@@ -82,17 +67,10 @@ public class Helper extends BaseTest {
 		waitForElementToBeVisibleAndClickable(driver, ele, defaultTimeoutInSeconds);
 	}
 
-	/*
-	 * Use to refresh the page.
-	 */
 	public static void refresh(WebDriver driver) {
 		driver.navigate().refresh();
 	}
 
-	/*
-	 * Uses Selenium's WebDriverWait to wait for an element to be visible within the
-	 * specified timeout duration.
-	 */
 	public static void waitForElementToBeVisible(WebDriver driver, By locator, Duration timeoutInSeconds) {
 		WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
 		WebElement visiblElement = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
@@ -103,23 +81,14 @@ public class Helper extends BaseTest {
 		waitForElementToBeVisible(driver, locator, defaultTimeoutInSeconds);
 	}
 
-	/*
-	 * Uses Selenium's WebDriver to accept an alert dialog.
-	 */
 	public static void acceptAlert(WebDriver driver) {
 		driver.switchTo().alert().accept();
 	}
 
-	/*
-	 * Uses Selenium's WebDriver to dismiss an alert dialog.
-	 */
 	public static void dismissAlert(WebDriver driver) {
 		driver.switchTo().alert().dismiss();
 	}
 
-	/*
-	 * Is intended to set a value in a dropdown field
-	 */
 	public static void setDropdown(WebDriver driver, String value, WebElement element) {
 		element.click();
 		WebElement dropDownField = driver.findElement(By.xpath("//div[@id='select2-drop']//input[@type='text']"));
@@ -127,9 +96,6 @@ public class Helper extends BaseTest {
 		dropDownField.sendKeys(value, Keys.ENTER);
 	}
 
-	/*
-	 * Use to switch the window by index number.
-	 */
 	public static void switchToWindowByIndex(WebDriver driver, int windowIndex) {
 		String currentWindowHandle = driver.getWindowHandle();
 		Set<String> windowHandles = driver.getWindowHandles();
@@ -140,38 +106,23 @@ public class Helper extends BaseTest {
 		}
 	}
 
-	/*
-	 * Use to close the window.
-	 */
 	public static void closeWindow(WebDriver driver) {
 		driver.close();
 	}
 
-	/*
-	 * Select the dropdown menu item based on option.
-	 */
 	public static void selectDropdownOption(WebDriver driver, WebElement dropdown, String option) {
 		Select select = new Select(dropdown);
 		select.selectByVisibleText(option);
 	}
 
-	/*
-	 * Get the text from the tooltip.
-	 */
 	public static String getTextFromTooltip(WebDriver driver, WebElement element) {
 		return element.getAttribute("validationMessage");
 	}
 
-	/*
-	 * Get the text from the field.
-	 */
 	public static String getValueFromTheField(WebDriver driver, WebElement element) {
 		return element.getAttribute("value");
 	}
 
-	/*
-	 * Use to hover on the element.
-	 */
 	public static void hoverToElement(WebDriver driver, WebElement element) {
 		Actions action = new Actions(driver);
 		action.moveToElement(element).perform();
